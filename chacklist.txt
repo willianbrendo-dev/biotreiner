@@ -1,0 +1,44 @@
+Modelos Django – Estrutura Inicial  
+
+1. Academia
+ - Cada academia pode ter sua marca e alunos próprios.
+
+2. Plano
+ - Define os planos disponíveis (gratuito, +Saúde, +Saúde PRO).
+
+3. Aluno
+ - Usuário final do sistema, vinculado a uma academia.
+
+4. Treino
+ - Gerado por IA ou manualmente.
+
+5. Exercicio
+ - Cada treino terá vários exercícios.
+
+6. Pagamento
+ - Controla as assinaturas dos alunos.
+
+7. Presença
+Registra a presença do aluno na academia.
+
+8. Agendamentos
+Permite que o aluno agende treinos/sessões específicas com horário.
+
+[CONCLUIDO]
+
+Criar os arquivos admin.py com o registro dos modelos - [CONCUIDO]
+
+Criar os serializers.py para todas as app - [CONCLUIDO]
+
+Serializers ajustados para serem aninhados e graváveis - [CONCLUIDO]
+
+Criar as views.py com ViewSets e routers - [CONCLUIDO]
+
+Configurar autenticação com JWT (JSON Web Token) - [CONCLUIDO]
+
+Permissões personalizadas para controlar o acesso com base no tipo de usuário: aluno, academia e admin_aurevo. - [CONCLUIDO]
+
+Aplicar filtros por usuário logado (ex: alunos veem só os próprios treinos e pagamentos) - [CONCLUIDO]
+
+Vincular o Aluno automaticamente à Academia do Usuario que criou (se for academia) - [CONCLUIDO]
+
